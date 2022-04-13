@@ -8,16 +8,15 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <title>Document</title>
 	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-	  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-	  <link rel="stylesheet" href="/webapp/resources/css/app.css"/>
+	  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/app.css"/>
 	</head>
 	<body>
 		<div class="d-flex flex-column vh-100">
 			<nav class="navbar navbar-dark bg-dark font-weight-bold">
 				<a class="navbar-brand" href="#">
 	    			<img src="${pageContext.request.contextPath}/resources/images/logo-spring.png" width="30" height="30" class="d-inline-block align-top"> Spring
-	    			<%-- <img src="<%=request.getContextPath()%>/resources/images/logo-spring.png" width="30" height="30" class="d-inline-block align-top"> Spring --%>
 	  			</a>
 	  			<div>
 	  				<a href="#" class="btn btn-success btn-sm">로그인</a>

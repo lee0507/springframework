@@ -17,7 +17,7 @@ public class HomeController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 	@RequestMapping("/")
-	public String home(Locale locale, Model model) {
+	public String home() {
 		logger.info("실행");
 //		return "/WEB-INF/views/home.jsp";
 		return "home";

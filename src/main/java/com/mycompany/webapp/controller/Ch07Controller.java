@@ -158,6 +158,7 @@ public class Ch07Controller {
 	}
 	*/
 	
+	//요청 매핑 메소드가 실행될 때마다 먼저 실행
 	@ModelAttribute("commonData")
 	public Ch07Board getCommonData() {
 		log.info("실행");
